@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-echo "Hello $1"
+read -p "Prénom : " Nom
+echo "Hello $Nom"
